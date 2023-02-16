@@ -4,7 +4,6 @@ body {
 }
 
 .cover {
-  height=480px
-  background-image:url{https://cdn.glitch.global/fc70fe01-09d6-457c-8944-c9bc568ee60d/Jackson%20Carrillo.jpg?v=1676499363282}
-  color:white:
+  height:480px;
+  background-color:red;
 }
