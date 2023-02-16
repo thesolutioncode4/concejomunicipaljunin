@@ -41,16 +41,8 @@ body {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: black;
+  color: white;
   text-align: center;
 }
 
 
-.display {
-   position: absolute;
-   left: 0;
-   right: 0;
-   top: 10%;
-   margin: 0 auto;
-   z-index: 9999999;
-}
