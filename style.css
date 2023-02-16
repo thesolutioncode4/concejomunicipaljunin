@@ -8,7 +8,19 @@ body {
   background-image:url(https://cdn.glitch.global/fc70fe01-09d6-457c-8944-c9bc568ee60d/Sin%20t%C3%ADtulo3.jpg?v=1676525676922);
   color:white;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  backgroud-color: rgba(0,0,0,5);
+  background-blend-mode: darken;
+}
+
+.cover-small {
+  height:200px;
+  background-blend-mode:normal;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0 . 0 . 0 . 0.1),
 }
 
 .card-title {
