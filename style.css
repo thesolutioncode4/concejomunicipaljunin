@@ -5,6 +5,8 @@ body {
 
 .cover {
   height:480px;
-  background-image:url(https://cdn.glitch.global/fc70fe01-09d6-457c-8944-c9bc568ee60d/Sin%20t%C3%ADtulo.png?v=1676525079497);
+  background-image:url(https://cdn.glitch.global/fc70fe01-09d6-457c-8944-c9bc568ee60d/Sin%20t%C3%ADtulo3.jpg?v=1676525676922);
   color:white;
+  background-size: cover;
+  background-position: center
 }
