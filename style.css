@@ -19,22 +19,32 @@ body {
   min-height:10rem
 }
 
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out,transform 0.6s ease-in-out;
+}
+
 
 .carousel-caption {
-  position: absolute; 
-    right: 15%;
-    top: 150px; /* Cambiar bottom por top y los píxeles que necesites */
-    left: 15%;
-    z-index: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
-    text-align: center;
-    background-color: dark;
+  position: absolute;
   right: 15%;
   bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
   text-align: center;
 }
+
 
 .display {
    position: absolute;
