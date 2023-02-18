@@ -57,12 +57,12 @@ body {
   text-align: center;
 }
 
-.resposive-iframe {
+.responsive-iframe {
   position:relative;
   padding-top:56.25%
 }
 
-.responsive-iframe iframe {
+.responsive-iframe iframe{
   position:absolute;
   top:0;
   left:0;
