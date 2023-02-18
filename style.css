@@ -1,6 +1,7 @@
 /* CSS files add styling rules to your content */
 body {
   margin: 0cm;
+  font-family:
 }
 
 .nav-link {
@@ -28,7 +29,7 @@ body {
 }
 
 .card-title {
-  min-height:2.5rem
+  min-height:3rem
 }
 
 .card-text{
