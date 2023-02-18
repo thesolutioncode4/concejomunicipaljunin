@@ -3,6 +3,9 @@ body {
   margin: 0cm;
 }
 
+.nav-link {
+  color:white;
+}
 .cover {
   height:480px;
   background-image:url(https://cdn.glitch.global/fc70fe01-09d6-457c-8944-c9bc568ee60d/Sin%20t%C3%ADtulo3.jpg?v=1676525676922);
