@@ -1,9 +1,13 @@
 /* CSS files add styling rules to your content */
 body {
   margin: 0cm;
-  font-family:
+  
+  font-family: 'Noto Sans', sans-serif;
 }
 
+h1,h2,h3,h4,h5{
+  font-family: 'Fjalla One', sans-serif;
+}
 .nav-link {
   color: white;
   
