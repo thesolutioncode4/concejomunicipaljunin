@@ -9,7 +9,7 @@ body {
   color:white;
   background-size: cover;
   background-position: center;
-  backgroud-color: rgba(0,0,0,5);
+  backgroud-color: rgba(0 , 0 , 0.5);
   background-blend-mode: darken;
 }
 
