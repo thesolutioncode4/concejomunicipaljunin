@@ -5,6 +5,9 @@ body {
   
   font-family: 'Noto Sans', sans-serif;
 }
+p{
+  color:white;
+}
 
 h1,h2,h3,h4,h5{
   font-family: 'Fjalla One', sans-serif;
@@ -25,28 +28,26 @@ h1,h2,h3,h4,h5{
 }
 
 .cover-small {
-  color: #21222c;
   height:200px;
   background-blend-mode:normal;
 }
 
 .card {
-  color:#21222c;
   border: 0 !important;
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
 }
 
 .card-body{
-  color:#21222c;
+  background-color:#21222c;
 }
 
 .card-title {
-  color:black;
+  color:white;
   min-height:3rem
 }
 
 .card-text{
-  color:black;
+  color:white;
   min-height:10rem
 }
 
