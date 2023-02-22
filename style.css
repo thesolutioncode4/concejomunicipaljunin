@@ -78,7 +78,6 @@ h1,h2,h3,h4,h5{
 .slider-container {
   transform:translateX(0);
   width:100px, 100%;
-  padding-top:56.25%;
   background-size:cover;
   background-position:center;
   flex-shrink:0;
