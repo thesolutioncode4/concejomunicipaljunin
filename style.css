@@ -79,3 +79,12 @@ h1,h2,h3,h4,h5{
   height:100%;
 
 }
+.slider{
+  overflow-x:translatex(0)
+}
+
+.slider_container{
+  width:100%;
+  padding-top:56.25%;
+  background
+}
