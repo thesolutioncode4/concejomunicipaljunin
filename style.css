@@ -54,24 +54,24 @@ h1,h2,h3,h4,h5{
   height:100%;
 
 }
-.stripe-container .slider-container{
+.stripe-container, .slider-container{
   display:flex;
   
 }
 
-.stripe-container{
+
+.stripe-container .card{
   width:300px;
   flex-shrink:0;
-  
 }
 
 
-.product-stripe{
+.product-stripe, .slider{
   overflow-x:scroll;
   padding-top:1rem;
 }
 
-.slider {
+.slider{
   overflow-x:hidden;
 }
 
