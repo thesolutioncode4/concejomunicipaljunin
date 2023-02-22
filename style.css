@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5{
   background-blend-mode:normal;
 }
 
-.stripe-container .card {
+.card {
   border: 0 !important;
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
 }
@@ -56,12 +56,17 @@ h1,h2,h3,h4,h5{
 }
 
 .stripe-container{
-  
-  
+  display:flex;
 }
 
+.stripe-container .card{
+  width:100px;
+  flex-shrink:0;
+
 .product-stripe{
-  
+  overflow-x:scroll;
+  padding-top:1rem;
+  padding-button:1rem;
 }
 
 .slider {
