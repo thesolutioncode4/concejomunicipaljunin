@@ -54,6 +54,16 @@ h1,h2,h3,h4,h5{
   height:100%;
 
 }
+.stripe-container .slider-container{
+  display:flex;
+  
+}
+
+.stripe-container{
+  width:300px;
+  flex-shrink:0;
+  
+}
 
 
 .product-stripe{
@@ -62,10 +72,11 @@ h1,h2,h3,h4,h5{
 }
 
 .slider {
-  overflow-x:translatex(0);
+  overflow-x:hidden;
 }
 
-.slider-container{
+.slider-container {
+  transform:translateX(0);
   width:100px, 100%;
   padding-top:56.25%;
   background-size:cover;
