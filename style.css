@@ -77,10 +77,7 @@ h1,h2,h3,h4,h5{
 
 .slider-container {
   transform:translateX(0);
-  width:100px, 100%;
-  background-size:cover;
-  background-position:center;
-  flex-shrink:0;
+  animation: slider 2s infinite;
 }
 .image-container{
   width:100%;
@@ -88,4 +85,15 @@ h1,h2,h3,h4,h5{
   background-size:cover;
   background-position:center;
   flex-shrink:0;
+}
+
+@keyframes slider{
+  
+  0%{
+    transform:translateX(0);
+  }
+  
+  100%{
+    transform:translateX(100%);
+  }
 }
