@@ -132,33 +132,21 @@ h1,h2,h3,h4,h5{
   }
 }
 
-  background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgba(0,191,255,1) 90% );
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+{box-sizing:border-box;}
 
-.buttons {
-  min-width: 700px;
-  display: flex;
-  justify-content: space-around;
-}
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
 
-.buttons a {
-  text-decoration: none;
-  font-size: 28px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  background: #314652;
-  color: #f1f1f1;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-  transition: all .4s ease-in-out;
-}
-
-.buttons a:hover {
-  transform: scale(1.2);
-}
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+      width:48px;
+			height:48px;
+      right:0;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-50px;
+		}
