@@ -1,217 +1,322 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CONCEJO MUNICIPAL DE JUNIN</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
     <meta name="MobileOptimized" content="width" />
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    
-    <link rel="stylesheet" 
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-          crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans&display=swap" rel="stylesheet">
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="javascript" href="javascript.js" />
+
+    <!--========BOX ICONS==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!--========CSS========-->
+    <link rel="stylesheet" href="/style.css" />
+    <title>CONCEJO MUNICIPAL DE JUNIN</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.global/ed2d5858-ee22-4cf9-8ea0-3a15ea7b2eed/img%20logo%20original.png?v=1694236176270"
+    />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">CONCEJO MUNICIPAL DE JUNIN</a>
-        <ul class="nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Inicio </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="descargas.html">Descargas </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="conocenos.html">Organigrama </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="noticias.html">Noticias </a>
-          </li>
-        </ul>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="index.html" class="nav__logo"
+          ><img
+            src="https://cdn.glitch.global/ed2d5858-ee22-4cf9-8ea0-3a15ea7b2eed/img%20logo%20original.png?v=1694236176270"
+            alt=""
+            class="logo-menu"
+            id="logo-menu"
+          /><strong>Concejo Municipal de Junin</strong></a
+        >
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="conocemas.html" class="nav__link">Acerca de</a>
+            </li>
+            <li class="nav__item">
+              <a href="descargas.html" class="nav__link">Descargas</a>
+            </li>
+            <li class="nav__item">
+              <a href="organigrama.html" class="nav__link">Conocenos</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
       </nav>
+    </header>
+    <div class="bd-container bd-grid">
       <div
-        class="cover d-flex justify-content-center align-items-center flex-column"
+        class="cover1 d-flex justify-content-center align-items-center flex-column"
       >
         <h1>Concejo Municipal de Junin</h1>
         <p>"Consolidemos la Unidad por Junín"</p>
-        <a href="conocemas.html">
-          <buttom class="btn btn-primary"> Conoce mas </buttom>
-        </a>
+        <a href="conocemas.html" class="button"> Conoce mas </a>
       </div>
-    </header>
-    <!-- carrousel -->
+    </div>
+    <div class="services__container bd-container bd-grid"></div>
 
-    <!-- seccion noticias -->
+    <main class="l-main">
+
+      
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div>
+          <div class="home__container bd-container bd-grid">
+            <div class="home__data">
+              <h1 class="home__title"><br />Concejo Municipal de Junin</h1>
+              <h2 class="home__subtitle">
+                Capital del municipio Junín, fundada en 1794 por Don Gervasio
+                Rubio Vargas, ubicada en la región Sur-Occidental del Estado
+                Táchira<br />
+              </h2>
+              <a href="conocemas.html" class="button">Seguir leyendo</a>
+            </div>
+
+            <img alt="" class="home1" id="home1" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--- SECTION FEED INSTAGRAM-->
     <section>
-      <div class="container mt-5 mb-5">
-        <div class="cover1 d-flex justify-content-center mb-5">
-          <a href="noticias.html">
-            <h1>NOTICIAS SOBRE JUNIN</h1>
-          </a>
-        </div>
-      </div>
-      <!-- CARD NOTICIAS -->
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-6 col-sd-4 col-lg-3 mt-2">
-          <div class="card">
-            <div
-              class="cover cover-small"
-              style="
-                background-image: url(https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/news1.jpg?v=1678250360031);
-              "
-            ></div>
-
-            <div class="card-body">
-              <h5 class="card-title d-flex justify-content-center">
-                salon de reuniones
-              </h5>
-              <p class="card-text d-flex justify-content-center">
-                integrante de la Comisión Permanente de Educación y Cultura
-                atendió en el Salón de reuniones "Gervasio Rubio"
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-sd-4 col-lg-3 mt-2">
-          <div class="card">
-            <div
-              class="cover cover-small"
-              style="
-                background-image: url(https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/news2.jpg?v=1678256975823);
-              "
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title d-flex justify-content-center">
-                Reunion taxistas
-              </h5>
-              <p class="card-text d-flex justify-content-center">
-                Por unanimidad aval de parada de las lineas de moto taxi y taxis
-                que facilitarán la movilidad y traslado en nuestra ciudad.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-sd-4 col-lg-3 mt-2">
-          <div class="card">
-            <div
-              class="cover cover-small"
-              style="
-                background-image: url(https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/news%203.jpg?v=1678258709282);
-              "
-            ></div>
-            <div class="card-body">
-              <h5 class="card-title d-flex justify-content-center">
-                Evento Juventud
-              </h5>
-              <p class="card-text d-flex justify-content-center">
-                Mediante la Comisión de Deporte y Juventud conformada por el
-                Prof. Johan Lizcano, Dr. Jimmy Acevedo y el Lcdo. Danny Carrillo
-                se condecoró a diferentes jóvenes juninenses.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="insta" id="Instag">
+        <div class='sk-instagram-feed' data-embed-id='206584'></div><script src='https://widgets.sociablekit.com/instagram-feed/widget.js' async defer></script>
       </div>
     </section>
-
-    <!-- section organigrama -->
+    
+    <!---======= SECTION CARD PRESCENT =======-->
+    <div class="bd-container bd-grid mb-5">
+      <div
+        class="container d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>Nuestro Equipo<br></h1>
+        
+      </div>
+    </div>
     <section>
-      <div class="container mt-5 mb-5">
-        <div class="d-flex justify-content-center mb-5 mt-5">
-          <a href="conocenos.html">
-            <h1 href="conocenos.html">ORGANIGRAMA</h1>
-          </a>
+      <div class="container-card bd-container bd-grid">
+        <div class="icon">
+          <div class="imgBx active" style="--i: 2" data-id="content1">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0006.jpg?v=1679345625665"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 1" data-id="content2">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0005.jpg?v=1679345584194"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 3" data-id="content3">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0011.jpg?v=1679345660404"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 4" data-id="content4">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/sin%20foto.jpg?v=1678458832068"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 5" data-id="content5">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0008.jpg?v=1679345632339"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 6" data-id="content6">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0010.jpg?v=1679345631689"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 7" data-id="content7">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/johan%20lizcano.jpeg?v=1679498158335"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 8" data-id="content8">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0004.jpg?v=1679345656330"
+              alt=""
+            />
+          </div>
+          <div class="imgBx" style="--i: 8" data-id="content9">
+            <img
+              src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0011.jpg?v=1679345660404"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-6 col-sd-4 col-lg-3 mt-2">
-            <div class="card">
-              <img
-                src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0006.jpg?v=1679345625665"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title d-flex justify-content-center">
-                  Sonia Mendoza Torres
-                </h5>
-                <p class="card-text d-flex justify-content-center">
-                  Presidente del CMJ
-                </p>
+        <div class="content-card bd-container">
+          <div class="contentBx" id="content1">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0006.jpg?v=1679345625665"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Sonia Mendoza<br /><span>Presidente</span></h2>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-sd-4 col-lg-3 mt-2">
-            <div class="card">
-              <img
-                src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0005.jpg?v=1679345584194"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title d-flex justify-content-center">
-                  Jimmy Acevedo
-                </h5>
-                <p class="card-text d-flex justify-content-center">
-                  Vice-Presidente del CMJ
-                </p>
+
+          <div class="contentBx" id="content2">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0005.jpg?v=1679345584194"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Jimmy Acevedo<br /><span>Vice-Presidente</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentBx" id="content3">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0011.jpg?v=1679345660404"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Marcos Rincon<br /><span>Concejal</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentBx" id="content4">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/sin%20foto.jpg?v=1678458832068"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Juana Parada<br /><span>Sub-Secretario</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentBx" id="content5">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0008.jpg?v=1679345632339"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Danny Carrillo<br /><span>Concejal</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentBx" id="content6">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0010.jpg?v=1679345631689"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Herlany Rivas<br /><span>Concejal</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentBx" id="content7">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/johan%20lizcano.jpeg?v=1679498158335"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Johan Lizcano<br /><span>Concejal</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentBx" id="content8">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0004.jpg?v=1679345656330"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Ruben Manrique<br /><span>Concejal</span></h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="contentBx" id="content9">
+            <div class="card-org">
+              <div class="imgBx">
+                <img
+                  src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/IMG-20230320-WA0011.jpg?v=1679345660404"
+                  alt=""
+                />
+              </div>
+              <div class="textBx">
+                <h2>Marcos Rincon<br /><span>Concejal</span></h2>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- section social red -->
-    <section>
-        <div class="cover1 d-flex justify-content-center mb-5">
-          <h1>Siguenos</h1>
-        </div>
-      <div class="redes">
-        <ul class="social">
-          <li>
-            <a href="https://www.facebook.com/concejomunicipaljunin2"
-              ><img
-                src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/facebook.png?v=1679713720241"
-                width="45"
-                height="45"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/concejomunicipaljunin"
-              ><img
-                src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/instagram.png?v=1679937267703"
-                width="45"
-                height="45"
-            /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/Concejojunin22"
-              ><img
-                src="https://cdn.glitch.global/ad41ce0c-bbbc-4697-8fdc-ad3917290c08/gorjeo.png?v=1679937270623"
-                width="45"
-                height="45"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
     <!-- section maps google -->
-    <section>
-      <div class="container mt-5 mb-5 text-center">
-        <h1>Aqui estamos</h1>
+    <section class="maps" id="maps">
+      <div class="container text-center">
+        <h1><br /><br />Aqui estamos</h1>
         <p>Av. 9, con calle 10, El Centro, Rubio 5030, Táchira</p>
         <div class="responsive-iframe">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.4451926333012!2d-72.35818127078338!3d7.706658828644295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e663f304a7c23f5%3A0xb4de43ba6bf925fd!2sCONCEJO%20MUNICIPAL!5e0!3m2!1ses!2sve!4v1676682555046!5m2!1ses!2sve"
-            width="600"
-            height="450"
+            width="400"
+            height="200"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -220,5 +325,74 @@
         </div>
       </div>
     </section>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container text-center">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">Concejo Municipal de JUNIN</a>
+          <span class="footer__description">Redes Sociales</span>
+          <div>
+            <a
+              href="https://www.facebook.com/concejomunicipaljunin2"
+              target="_blank"
+              class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/concejomunicipaljunin"
+              target="_blank"
+              class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a
+              href="https://twitter.com/Concejojunin22"
+              target="_blank"
+              class="footer__social"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Direccion</h3>
+          <ul>
+            <li>Rubio - Estado Tachira</li>
+            <li>Av. 9, con calle 10, El Centro</li>
+            <li>(58) 0276 000 00 00</li>
+            <li>concejomunicipaljunin@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy">
+        &#169; Concejo Municipal de Junin Todos los derechos reservados
+      </p>
+    </footer>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/main2.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script>
+      let imgBx = document.querySelectorAll(".imgBx");
+      let contentBx = document.querySelectorAll(".contentBx");
+
+      for (let i = 0; i < imgBx.length; i++) {
+        imgBx[i].addEventListener("mouseover", function () {
+          for (let i = 0; i < contentBx.length; i++) {
+            contentBx[i].className = "contentBx";
+          }
+          document.getElementById(this.dataset.id).className =
+            "contentBx active";
+
+          for (let i = 0; i < imgBx.length; i++) {
+            imgBx[i].className = "imgBx";
+          }
+          this.className = "imgBx active";
+        });
+      }
+    </script>
+    
   </body>
 </html>
