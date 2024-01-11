@@ -640,199 +640,31 @@ img{
     cursor: pointer;
 }
 
-.container-card .icon .imgBx{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    transition: 0.5s;
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 0 4px #222222,
-    0 0 0 6px #ffffff;
-    transform: rotate(calc(360deg / 8 * var(--i)));
-    transform-origin: 340px;
-    z-index: 100;
-    overflow: hidden;
+/* organigrama */
+
+.containerPerson {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.container-card .icon .imgBx:hover{
-    margin-top: -10px;
+.person {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 340px;
 }
 
-.container-card .icon .imgBx.active{
-    box-shadow: 0 0 0 4px #222222,
-    0 0 0 10px #ff1d50;
-}
-
-.container-card .icon .imgBx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    transform: rotate(calc(-360deg / 8 * var(--i)));
-    transition: 0.5s;
-    filter: grayscale(1);
-}
-
-.container-card .icon .imgBx.active img{
-    filter: grayscale(0);
-}
-
-.content-card {
-    position: absolute;
-    inset: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-card:before{
-    content: '';
-    position: absolute;
-    inset: 70px;
-    border: 4px solid transparent;
-    border-left: 15px solid #f37673;
-    border-right: 15px solid #222222;
-    border-radius: 50%;
-    animation: anim1 5s linear infinite;
-    z-index: 1;
-    pointer-events: none;
-}
-
-@keyframes anim1{
-    0%
-    {
-        rotate: 0deg;
-    }
-    100%
-    {
-        rotate: 360deg;
-    }
-}
-
-.content-card:after{
-    content: '';
-    position: absolute;
-    inset: 125px;
-    border: 4px solid transparent;
-    border-top: 28px solid #457b9d;
-    border-bottom: 18px solid #f1faee;
-    border-radius: 50%;
-    animation: anim2 2.6s linear infinite;
-    z-index: 1;
-    pointer-events: none;
-}
-
-@keyframes anim2{
-    0%
-    {
-        rotate: 360deg;
-    }
-    100%
-    {
-        rotate: 0deg;
-    }
-}
-
-.contentBx{
-    position: absolute;
-    transform: scale(0);
-    transition: 0.5s;
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contentBx.active{
-    transform: scale(1);
-    opacity: 1;
-    transition-delay: 0.5s;
-}
-
-.contentBx .card-org{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    grid-auto-flow: 15px;
-}
-
-.contentBx .card-org .imgBx{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.contentBx .card-org .imgBx img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.contentBx .card-org .textBx{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.contentBx .card-org .textBx h7{
-    margin-top: 10px;
-    position: relative;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #ffffff;
-    line-height: 1em;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.contentBx .card-org .textBx h7 span{
-    font-size: 0.65em;
-    color: #ffffff;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-}
-
-.contentBx .card-org .textBx .sci{
-    position: relative;
-    display: flex;
-    gap: 7px;
-    margin-top: 10px;
-}
-
-.contentBx .card-org .textBx .sci li{
-    list-style: none;
-}
-
-.contentBx .card-org .textBx .sci li a{
-    position: relative;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    background: #444444;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-
-.contentBx .card-org .textBx .sci li a:hover{
-    background: #2196f3;
+.person img {
+  border-radius: 20%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 /* .embed-container {
@@ -847,7 +679,7 @@ img{
   top:0;
   left: 0;
   width: 100%;
-  height: 720px;
+  height: 1020px;
 }
 
 @media (max-width: 700px) {
